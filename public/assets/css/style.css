@@ -1,0 +1,16 @@
+.container{
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+footer {
+    background-color: #353A3F;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    bottom: 0;
+    text-align: center;
+}

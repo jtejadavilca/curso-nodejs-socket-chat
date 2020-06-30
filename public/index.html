@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Chat</h1>
+    <div class="container d-flex justify-content-center">
+
+        <form action="chat.html" class="col-6">
+            <div class="row">
+                <div class="form-group">
+                    <label for="txtNombre">Nombre : </label>
+                    <input  type="text" class="form-control" id="txtNombre" name="nombre" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="txtSala">Sala : </label>
+                    <input  type="text" class="form-control" id="txtSala" name="sala" />
+                </div>
+            </div>
+            <button class="btn btn-primary" id="btnEntrar">Entrar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <!-- <script src="js/socket-custom.js"></script> -->
+
+    <script>
+        // var txtUsuario = $('#txtUsuario');
+        // $('#btnEntrar').click(function(e){
+
+        //     e.preventDefault();
+        //     if( $.trim(txtUsuario.val()) === '' )
+        //         alert('Debe ingresar un usuario');
+            
+        //     else
+        //         window.location = 'chat.html?usuario=' + $.trim(txtUsuario.val());
+        // });
+    </script>
+</body>
+
+</html>
